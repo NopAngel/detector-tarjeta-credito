@@ -48,7 +48,7 @@ public:
 int main() {
     std::string numeroTarjeta;
     
-    std::cout << "Por favor, ingrese el número de su tarjeta de crédito: ";
+    std::cout << "Por favor, ingrese el numero de su tarjeta de credito: ";
     std::getline(std::cin, numeroTarjeta);
 
     if (DetectorTarjetas::validarTarjeta(numeroTarjeta)) {
