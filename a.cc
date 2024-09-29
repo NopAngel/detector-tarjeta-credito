@@ -52,9 +52,9 @@ int main() {
     std::getline(std::cin, numeroTarjeta);
 
     if (DetectorTarjetas::validarTarjeta(numeroTarjeta)) {
-        std::cout << "La tarjeta es válida." << std::endl;
+        std::cout << "La tarjeta es valida." << std::endl;
     } else {
-        std::cout << "Error: La tarjeta no es válida." << std::endl;
+        std::cout << "Error: La tarjeta no es valida." << std::endl;
     }
 
     return 0;
